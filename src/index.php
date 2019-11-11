@@ -32,6 +32,7 @@
 			$updated = json_encode($blogposts);
 			file_put_contents("blogposts.txt", $updated);
 			$_POST = array();
+			header("Refresh:0");
 		    }
 	    }
 	?>  
