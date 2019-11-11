@@ -1,0 +1,6 @@
+version: '3.1'
+services:
+  coookies:
+    build: ./
+    ports:
+      - "57001:80" #Ports need to be between 50000-60000
